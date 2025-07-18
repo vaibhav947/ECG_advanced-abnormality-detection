@@ -1,0 +1,64 @@
+
+ECG ANALYSIS REPORT
+==================
+Generated: 2025-07-18 15:05:51
+Analysis ID: 20250718_150546
+Data Source: MIT-BIH Record 100
+
+SIGNAL QUALITY ASSESSMENT
+------------------------
+Overall Quality: Poor
+Signal-to-Noise Ratio: 11.8 dB
+Clipping Detected: Yes
+Flat Segments: 0.0%
+
+RHYTHM ANALYSIS
+--------------
+Recording Duration: 1805.6 seconds
+Total Heartbeats: 2272
+Rhythm Classification: Occasional PVCs (72 beats, 3.2%, Moderate confidence)
+
+HEART RATE STATISTICS
+--------------------
+Mean Heart Rate: 75.6 bpm
+Standard Deviation: 4.3 bpm
+Minimum Heart Rate: 63.5 bpm
+Maximum Heart Rate: 87.4 bpm
+
+HEART RATE VARIABILITY
+---------------------
+RMSSD: 92.0 ms
+pNN50: 37.5%
+LF/HF Ratio: 0.06
+
+QRS MORPHOLOGY
+-------------
+Average QRS Width: 71.2 ms
+Average QRS Amplitude: 1.421
+
+CLINICAL FINDINGS
+----------------
+ABNORMALITIES DETECTED:
+⚠️  Occasional PVCs detected (72 beats, 3.2%)
+
+RECOMMENDATIONS
+--------------
+1. Review signal quality if SNR < 10 dB
+2. Consider clinical correlation for detected abnormalities
+3. Repeat recording if signal quality is poor
+4. Consult cardiologist for irregular rhythms
+
+TECHNICAL NOTES
+--------------
+- Analysis performed using Pan-Tompkins QRS detection algorithm
+- Heart rate variability calculated from RR intervals
+- Preprocessing included baseline correction and filtering
+- All measurements are automated estimates
+- Abnormality detection thresholds: Bradycardia <65 bpm, Tachycardia >95 bpm
+
+DISCLAIMER
+----------
+This analysis is for research/educational purposes only.
+Clinical decisions should not be based solely on this automated analysis.
+Always consult qualified medical professionals for clinical interpretation.
+Real patient data should be validated against expert annotations.

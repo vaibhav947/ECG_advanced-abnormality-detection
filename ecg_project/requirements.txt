@@ -1,0 +1,28 @@
+# ECG Signal Processing System Requirements
+# ==========================================
+
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+
+# ECG data handling
+wfdb>=4.1.0
+
+# Interactive visualization
+plotly>=5.0.0
+dash>=2.0.0
+
+# Development and testing
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Optional: for enhanced features
+# opencv-python>=4.5.0  # For advanced signal processing
+# tensorflow>=2.8.0     # For machine learning models
+# torch>=1.10.0         # Alternative ML framework
+
+# System utilities
+requests>=2.25.0
